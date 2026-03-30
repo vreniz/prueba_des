@@ -18,7 +18,7 @@ The project is organized into the following modules:
 Entry point of the application.  
 It initializes the system, loads existing data from the CSV file, and controls the main program loop.
 
-It also containg all reusable `def` functions for input validation to ensure data integrity, such as:
+It also contains all reusable `def` functions for input validation to ensure data integrity, such as:
 
 - Positive integer validation  
 - Non-empty text validation  
@@ -42,6 +42,7 @@ Contains the core student registratin logic of the system, including:
 The system stores the data in a CSV file for data persistance.
 
 `data/students.csv`
+
 With the following format.
 ### Data Format (CSV)
 
