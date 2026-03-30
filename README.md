@@ -60,3 +60,50 @@ Each record contains:
 - `Status`: (Active/Inactive)
 
 ---
+## 🛠 Technologies Used
+
+- Python 🐍  
+- CSV file handling (`csv` module)  
+- Lists and dictionaries  
+- Modular programming  
+- Input validation  
+- Exception handling  
+
+---
+
+## ▶️ How to Run
+
+For running this project use the terminal with the following command.
+
+```bash
+python3 main.py
+```
+This would display the program *MENU* like this:
+
+```
+📋 Menu Options
+--- STUDENT MANAGEMENT SYSTEM ---
+1. Register Student
+2. List Students
+3. Search Student
+4. Update Student
+5. Delete Student
+6. Exit
+Choose an option: 1
+```
+🧠 Input Validation
+
+The system ensures valid user input through reusable validation functions:
+
+- Prevents empty values.
+- Ensures numeric inputs are positive and not 0.
+- Avoids invalid data formats.
+
+This guarantees:
+
+- Data consistency
+- Better user experience
+- Reduced runtime errors
+---
+Author
+*Vanessa Fontalvo Reniz* | Systems Engineer | Aspiring Software Developer
