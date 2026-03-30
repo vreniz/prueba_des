@@ -81,7 +81,6 @@ python3 main.py
 This would display the program *MENU* like this:
 ### *📋 Menu Options:*
 ```
-📋 Menu Options
 --- STUDENT MANAGEMENT SYSTEM ---
 1. Register Student
 2. List Students
@@ -91,7 +90,7 @@ This would display the program *MENU* like this:
 6. Exit
 Choose an option: 1
 ```
-🧠 Input Validation
+### 🧠 Input Validation
 
 The system ensures valid user input through reusable validation functions:
 
