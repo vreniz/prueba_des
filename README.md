@@ -78,7 +78,7 @@ For running this project use the terminal with the following command.
 ```bash
 python3 main.py
 ```
-This would display the program *MENU* like this:
+This would display the program *MENU* in the console as it follows:
 ### *📋 Menu Options:*
 ```
 --- STUDENT MANAGEMENT SYSTEM ---
@@ -90,6 +90,7 @@ This would display the program *MENU* like this:
 6. Exit
 Choose an option: 1
 ```
+With this, the user is able to pick any of the previous options to execute the *Student Registration Program*.
 ### 🧠 Input Validation
 
 The system ensures valid user input through reusable validation functions:

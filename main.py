@@ -6,9 +6,9 @@ def show_menu():
     Displays menu options.
     """
     print("\n--- STUDENT MANAGEMENT SYSTEM ---")
-    print("1. Register Student")
+    print("1. Register Students")
     print("2. List Students")
-    print("3. Search Student")
+    print("3. Search Student by ID")
     print("4. Update Student")
     print("5. Delete Student")
     print("6. Exit")
