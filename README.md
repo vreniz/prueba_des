@@ -79,7 +79,7 @@ For running this project use the terminal with the following command.
 python3 main.py
 ```
 This would display the program *MENU* like this:
-*📋 Menu Options:*
+### *📋 Menu Options:*
 ```
 📋 Menu Options
 --- STUDENT MANAGEMENT SYSTEM ---
