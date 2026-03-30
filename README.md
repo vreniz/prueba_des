@@ -39,7 +39,7 @@ Contains the core student registratin logic of the system, including:
 ## 💾 Data Storage
 
 ### 💾 `student.csv`
-The system stores the data in a CSV file for data persistance.
+The system stores the data in a CSV file for data persistance, in the file path:
 
 `data/students.csv`
 
