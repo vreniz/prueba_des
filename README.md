@@ -24,7 +24,7 @@ It also contains all reusable `def` functions for input validation to ensure dat
 - Non-empty text validation  
 - Invalid input format validation 
 - Not only numbers 
----
+
 
 ### ⚙️ `crud.py`
 Contains the core student registratin logic of the system, including:
