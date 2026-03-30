@@ -1,0 +1,32 @@
+Requisitos Funcionales
+1. Gestión de estudiantes
+El sistema debe permitir:
+• Registrar nuevos estudiantes.(done)
+• Consultar la lista de estudiantes.(done)
+• Buscar un estudiante por algún criterio (ej. ID o nombre).(done by id)
+• Actualizar la información de un estudiante. (done)
+• Eliminar estudiantes.  (done)
+Cada estudiante debe contener como mínimo los siguientes datos:
+• ID (identificador único)
+• Nombre
+• Edad
+• Curso o programa
+• Estado (activo/inactivo)
+2. Almacenamiento en estructuras de datos
+La información debe almacenarse utilizando estructuras de datos en memoria, tales
+como:
+• Listas
+• Diccionarios
+• Tuplas
+*Se permite usar una combinación de estas estructuras si es necesario.
+3. Persistencia de datos (Puntos Extra Max. 8)
+Como mejora adicional (no obligatoria), el sistema puede:
+• Guardar los datos en archivos: .csv, .txt o .json (done)
+• Cargar los datos al iniciar el programa. (done)
+• Mantener la información entre ejecuciones del sistema.  (done)
+4. Diseño modular con funciones
+• Cada funcionalidad debe estar encapsulada en funciones.
+• Se deben usar funciones con parámetros y retorno.
+5. Interacción por consola
+• El programa debe ejecutarse en consola.
+• Debe incluir un menú interactivo que permita al usuario seleccionar las diferentes 
