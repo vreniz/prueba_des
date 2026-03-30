@@ -70,7 +70,8 @@ def get_student_data():
         "name": read_text("Name: "),
         "age": read_positive_int("Age: "),
         "program": read_text("Program: "),
-        "status": "active",
+        # "status": "active",
+        "status": read_text("Status(Active/Inactive): ")
     }
 
 
@@ -79,6 +80,7 @@ def get_update_data():
         "name": read_text("Name: "),
         "age": read_positive_int("Age: "),
         "program": read_text("Program: "),
+        "status": read_text("Status(Active/Inactive): ")
     }
 
 
