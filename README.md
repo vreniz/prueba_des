@@ -79,7 +79,7 @@ For running this project use the terminal with the following command.
 python3 main.py
 ```
 This would display the program *MENU* like this:
-
+*📋 Menu Options:*
 ```
 📋 Menu Options
 --- STUDENT MANAGEMENT SYSTEM ---
@@ -105,5 +105,5 @@ This guarantees:
 - Better user experience
 - Reduced runtime errors
 ---
-Author
+## Author
 *Vanessa Fontalvo Reniz* | Systems Engineer | Aspiring Software Developer
