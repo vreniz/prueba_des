@@ -82,9 +82,9 @@ This would display the program *MENU* in the console as it follows:
 ### *📋 Menu Options:*
 ```
 --- STUDENT MANAGEMENT SYSTEM ---
-1. Register Student
+1. Register Students
 2. List Students
-3. Search Student
+3. Search Student by ID
 4. Update Student
 5. Delete Student
 6. Exit
