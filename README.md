@@ -6,7 +6,7 @@
 - Register new students. 
 - Display all registered students.
 - Search students by ID.  
-- Update student information.  
+- Update student information by ID.  
 - Delete students by ID. 
 - Save data to a CSV file.  
 ---
