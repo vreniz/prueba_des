@@ -64,7 +64,7 @@ def read_only_text(message):
 
     - Not empty
     - Not only numbers
-    - Only numbers and spaces
+    - Only letters and spaces
     """
     while True:
         text = input(message).strip()
