@@ -5,6 +5,14 @@ from validate import *
 if __name__ == "__main__":
     """
     While true infinitive loop for menu options control.
+    --- STUDENT MANAGEMENT SYSTEM ---
+    1. Register Students
+    2. List Students
+    3. Search Student by ID
+    4. Update Student
+    5. Delete Student
+    6. Exit
+    Choose an option: 1
     """
     while True:
 

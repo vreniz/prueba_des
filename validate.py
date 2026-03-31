@@ -99,7 +99,6 @@ def get_student_data():
         "name": read_only_text("Name: "),
         "age": read_positive_int("Age: "),
         "program": read_text("Program: "),
-        # "status": "active",
         "status": read_only_text("Status(Active/Inactive): ")
     }
 
