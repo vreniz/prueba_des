@@ -7,8 +7,8 @@
 - Display all registered students.
 - Search students by ID.  
 - Update student information.  
-- Delete students by ID 
-- Save data to a CSV file  
+- Delete students by ID. 
+- Save data to a CSV file.  
 ---
 ## 🧱 Project Structure
 
@@ -18,22 +18,23 @@ The project is organized into the following modules:
 Entry point of the application.  
 It initializes the system, loads existing data from the CSV file, and controls the main program loop.
 
-It also contains all reusable `def` functions for input validation to ensure data integrity, such as:
+### ✅ `validate.py`
+It  contains all reusable `def` functions for input validation to ensure data integrity, such as:
 
-- Positive integer validation  
-- Non-empty text validation  
-- Invalid input format validation 
-- Not only numbers 
+- Positive integer validation. 
+- Non-empty text validation. 
+- Invalid input format validation. 
+- Not only numbers. 
 
 
 ### ⚙️ `crud.py`
 Contains the core student registratin logic of the system, including:
 
-- Student registration  
-- Displaying the student list  
-- Searching for a student by ID  
-- Updating student data  
-- Deleting students 
+- Student registration.  
+- Displaying the student list.  
+- Searching for a student by ID.  
+- Updating student data. 
+- Deleting students.
 
 ---
 ## 💾 Data Storage
@@ -53,21 +54,21 @@ With the following format.
 
 Each record contains:
 
-- `Id`: Unique identifier
-- `Name`: Student name
-- `Age`: Student age
-- `Program`: Student Program
-- `Status`: (Active/Inactive)
+- `Id`: Unique identifier.
+- `Name`: Student name.
+- `Age`: Student age.
+- `Program`: Student Program.
+- `Status`: (Active/Inactive).
 
 ---
 ## 🛠 Technologies Used
 
-- Python 🐍  
+- Python 🐍 
 - CSV file handling (`csv` module)  
-- Lists and dictionaries  
-- Modular programming  
-- Input validation  
-- Exception handling  
+- Lists and dictionaries.
+- Modular programming. 
+- Input validation. 
+- Exception handling.
 
 ---
 
@@ -101,9 +102,9 @@ The system ensures valid user input through reusable validation functions:
 
 This guarantees:
 
-- Data consistency
-- Better user experience
-- Reduced runtime errors
+- Data consistency.
+- Better user experience.
+- Reduced runtime errors.
 ---
 ## Author
-*Vanessa Fontalvo Reniz* | Systems Engineer | Aspiring Software Developer
+*Vanessa Fontalvo Reniz* | Systems Engineer | Aspiring Software Developer.

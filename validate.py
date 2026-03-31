@@ -1,37 +1,3 @@
-Requisitos Funcionales
-1. Gestión de estudiantes
-El sistema debe permitir:
-• Registrar nuevos estudiantes.(done)
-• Consultar la lista de estudiantes.(done)
-• Buscar un estudiante por algún criterio (ej. ID o nombre).(done by id)
-• Actualizar la información de un estudiante. (done)
-• Eliminar estudiantes.  (done)
-Cada estudiante debe contener como mínimo los siguientes datos:
-• ID (identificador único)
-• Nombre
-• Edad
-• Curso o programa
-• Estado (activo/inactivo)
-2. Almacenamiento en estructuras de datos
-La información debe almacenarse utilizando estructuras de datos en memoria, tales
-como:
-• Listas
-• Diccionarios
-• Tuplas
-*Se permite usar una combinación de estas estructuras si es necesario.
-3. Persistencia de datos (Puntos Extra Max. 8)
-Como mejora adicional (no obligatoria), el sistema puede:
-• Guardar los datos en archivos: .csv, .txt o .json (done)
-• Cargar los datos al iniciar el programa. (done)
-• Mantener la información entre ejecuciones del sistema.  (done)
-4. Diseño modular con funciones
-• Cada funcionalidad debe estar encapsulada en funciones.
-• Se deben usar funciones con parámetros y retorno.
-5. Interacción por consola
-• El programa debe ejecutarse en consola.
-• Debe incluir un menú interactivo que permita al usuario seleccionar las diferentes 
-
-
 def show_menu():
     """
     Displays menu options.
@@ -92,17 +58,49 @@ def read_text(message):
         return text
 
 
+def read_only_text(message):
+    """
+    Validates text input.
+
+    - Not empty
+    - Not only numbers
+    - Only numbers and spaces
+    """
+    while True:
+        text = input(message).strip()
+
+        if not text:
+            print("Field cannot be empty.")
+            continue
+
+        if text.isdigit():
+            print("Cannot contain only numbers.")
+            continue
+
+        valid = True
+        for c in text:
+            if not (c.isalpha() or c.isspace()):
+                valid = False
+                break
+
+        if not valid:
+            print("Invalid format. Only letters and spaces.")
+            continue
+
+        return text
+
+
 def get_student_data():
     """
     Collects student data.
     """
     return {
         "id": read_positive_int("Student ID: "),
-        "name": read_text("Name: "),
+        "name": read_only_text("Name: "),
         "age": read_positive_int("Age: "),
         "program": read_text("Program: "),
         # "status": "active",
-        "status": read_text("Status(Active/Inactive): ")
+        "status": read_only_text("Status(Active/Inactive): ")
     }
 
 
@@ -111,8 +109,8 @@ def get_update_data():
     Collects student data strictly for update.
     """
     return {
-        "name": read_text("Name: "),
+        "name": read_only_text("Name: "),
         "age": read_positive_int("Age: "),
         "program": read_text("Program: "),
-        "status": read_text("Status(Active/Inactive): ")
+        "status": read_only_text("Status(Active/Inactive): ")
     }
