@@ -35,7 +35,7 @@ if __name__ == "__main__":
 
         elif option == "4":
             try:
-                student_id = int(input("Enter ID to update: "))
+                student_id = int(input("Enter Student ID to update: "))
                 updated = update_student(student_id, get_update_data())
                 print("Updated." if updated else "Not found.")
             except ValueError:
@@ -43,7 +43,7 @@ if __name__ == "__main__":
 
         elif option == "5":
             try:
-                student_id = int(input("Enter ID to delete: "))
+                student_id = int(input("Enter Student ID to delete: "))
                 print("Deleted." if delete_student(
                     student_id) else "Not found.")
             except ValueError:
